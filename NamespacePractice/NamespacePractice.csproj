@@ -6,7 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="twilio" Version="5.52.0" />
+    <PackageReference Include="twilio" Version="5.52.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TwillioCaller\TwillioCaller.csproj" />
   </ItemGroup>
 
 </Project>
